@@ -10,6 +10,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Log.d("TEST_TAG", "data = ${intent.data}")
-        Log.d("TEST_TAG", "dataString = ${intent.dataString}")
     }
 }
